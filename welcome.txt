@@ -4,3 +4,5 @@ this is a file to welcome you all guys and tell how to clone this file!!
 1. install git in you laptop's
 2. goto your required folder then type "git clone https://github.com/Mohitbisht3031/lpu_cpp_aug24.git" in your CMD/terminal 
 3. to get the new changes in type "git pull" in your CMD/terminal after opening the path of this folder in your laptop.
+
+if by running the above cmnd you get to see output as git not recoganized. That means git is not installed or git's path is not set in the enviornement variable.
