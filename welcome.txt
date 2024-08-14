@@ -1,3 +1,5 @@
+			**Steps to follow to clone the repo**
+
 Hi all
 this is a file to welcome you all guys and tell how to clone this file!!
 
