@@ -6,7 +6,7 @@ void insertion(vector<int>&v){
         int k = v[i];
         int j = i-1;
         while(j >= 0 && v[j] > k){
-            v[j+1] = k;
+            v[j+1] = v[j];
             j--;
         }
         v[j+1] = k;
