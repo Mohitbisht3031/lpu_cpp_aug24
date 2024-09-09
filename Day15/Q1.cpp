@@ -15,15 +15,13 @@ int convert(string &s,int k){
     convert_ston(s);
     cout<<s<<endl;
     for(int i =0 ;i<k;i++){
-        string ans = "";
+        int ans = 0;
         for(int j = 0;j<s.size();j++){
-            string str = "";
-            str+=s[j];
-            int v = stoi(str);
+            int v = s[j] - '0';
             cout<<"value of v is "<<v<<endl;
-            ans+=to_string(v);
+            ans+=(v);
         }
-        s = ans;
+        s = to_string(ans);
     }
     int ans = 0;
     for(int i = 0;i<s.size();i++){
