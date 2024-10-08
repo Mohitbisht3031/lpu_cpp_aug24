@@ -6,7 +6,7 @@ int main(){
     //cin ,cout
     // stringstream
     fstream fs;
-    fs.open("./student.dat", ios::out | ios::in | ios::binary);
+    fs.open("./student.dat", ios::out | ios::binary);
     if(!fs){
         cout<<"file cannot be generated!"<<endl;
         fs.close();
