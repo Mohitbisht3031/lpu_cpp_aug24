@@ -13,7 +13,7 @@ vector<vector<int>> makeGraph(){
         cin>>a>>b;
         mat[a][b] = 1;
     }
-    return;
+    return mat;
 }
 
 void dfs(vector<vector<int>>&g,int src,vector<int>&vis){
