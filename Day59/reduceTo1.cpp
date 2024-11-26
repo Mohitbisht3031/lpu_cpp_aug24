@@ -14,7 +14,7 @@ int minSteps(int n){
 }
 
 // recursion + memo -> tow down approach
-int helper(int n,vector<int>&dp){
+int helper(int n,vector<int>&dp){ //dp array is of size n+1
     if(n <= 1)return 0;
 
     if(dp[n] != -1)return dp[n];
